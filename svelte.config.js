@@ -9,7 +9,7 @@ const config = {
   }),
   paths: {
       // change below to your repo name
-      base:  process.argv.includes('dev') ? '' : 'bertram-capital'
+      base: 'bertram-capital'
   },
 	},
 	preprocess: [vitePreprocess({})],
