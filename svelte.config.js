@@ -5,7 +5,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 	},
-	preprocess: [vitePreprocess({})],
+	preprocess: [vitePreprocess()],
   esbuild: {
     target: 'esnext',
     platform: 'linux',
