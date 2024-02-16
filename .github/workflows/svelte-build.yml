@@ -9,7 +9,7 @@ on:
 jobs:
 
   build:
-    - name: Npm install
+    - name: npmInstall
       uses: actions/checkout@v4
       run: npm install -g pnpm && pnpm install
       run: pnpm run build
