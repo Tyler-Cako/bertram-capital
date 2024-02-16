@@ -8,8 +8,7 @@ const config = {
       assets: "docs"
   }),
   paths: {
-      // change below to your repo name
-      base: 'bertram-capital'
+
   },
 	},
 	preprocess: [vitePreprocess({})],
