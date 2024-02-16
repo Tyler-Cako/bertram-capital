@@ -4,8 +4,13 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	kit: {
 		adapter: adapter({
-      fallback: '200.html'
-    }),
+      pages: "docs",
+      assets: "docs"
+  }),
+  paths: {
+      // change below to your repo name
+      base:  process.argv.includes('dev') ? '' : 'bertram-capital'
+  },
 	},
 	preprocess: [vitePreprocess({})],
   esbuild: {
