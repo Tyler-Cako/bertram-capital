@@ -1,4 +1,4 @@
-View project (here:)[https://bertram-docker-eaaa7cc667d1.herokuapp.com/]
+View project [here:](https://bertram-docker-eaaa7cc667d1.herokuapp.com/)
 
 ## Building
 
